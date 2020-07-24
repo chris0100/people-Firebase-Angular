@@ -1,0 +1,13 @@
+    <div class="item">
+
+      <ul>
+        <li>
+          <a [routerLink]="['/personas', indice]" style="text-decoration: none;text-transform: uppercase"
+            [queryParams]="{modoEdicion:'1'}"
+          >
+            {{persona.nombre}}  {{persona.apellido}}
+          </a>
+        </li>
+      </ul>
+
+    </div>
